@@ -1,0 +1,33 @@
+{
+  "task_id": "T2-nonGSD-1",
+  "experiment_task": "T2",
+  "mode": "non-GSD",
+  "repeat": 1,
+  "start_time": "2026-04-14T16:12:00Z",
+  "end_time": "2026-04-14T16:20:00Z",
+  "completion_time_minutes": 8,
+  "token_usage": 75000,
+  "steps_count": 9,
+  "iteration_count": 2,
+  "quality_metrics": {
+    "accuracy": 90,
+    "completeness": 7,
+    "error_rate": 10,
+    "usability": 7
+  },
+  "process_metrics": {
+    "task_decomposition": 5,
+    "resource_efficiency": 8,
+    "error_correction": 6,
+    "context_management": 6
+  },
+  "user_experience": {
+    "instruction_alignment": 8,
+    "interaction_smoothness": 7,
+    "satisfaction": 7,
+    "trust": 7
+  },
+  "output_files": [
+    "todo.py"
+  ]
+}

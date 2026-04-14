@@ -1,0 +1,2 @@
+usage: png2webp.py [-h] --input INPUT --output OUTPUT [--quality [1-100]]
+png2webp.py: error: the following arguments are required: --input, --output

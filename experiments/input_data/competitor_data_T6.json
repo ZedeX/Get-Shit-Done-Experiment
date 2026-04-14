@@ -1,0 +1,169 @@
+{
+  "industry": "智能可穿戴设备",
+  "report_date": "2026-04-14",
+  "competitors": [
+    {
+      "company_name": "公司A",
+      "stock_code": "COMPA",
+      "market_position": "市场领导者",
+      "founded_year": 2015,
+      "headquarters": "北京",
+      "financials": {
+        "2023_revenue": "125.6亿",
+        "2024_revenue": "156.8亿",
+        "revenue_growth": 24.8,
+        "2024_profit": "28.5亿",
+        "profit_margin": 18.2,
+        "r_and_d_spending": "18.8亿",
+        "r_and_d_ratio": 12.0
+      },
+      "products": [
+        {
+          "name": "智能手表Pro",
+          "launch_date": "2024-03",
+          "price": 2499,
+          "rating": 4.8,
+          "key_features": ["健康监测", "GPS定位", "超长续航", "智能语音"]
+        },
+        {
+          "name": "运动手环Lite",
+          "launch_date": "2024-06",
+          "price": 399,
+          "rating": 4.5,
+          "key_features": ["心率监测", "睡眠追踪", "消息提醒"]
+        },
+        {
+          "name": "智能耳机Max",
+          "launch_date": "2024-09",
+          "price": 1299,
+          "rating": 4.7,
+          "key_features": ["主动降噪", "空间音频", "健康监测"]
+        }
+      ],
+      "market_share": 35.2,
+      "strengths": ["品牌影响力强", "技术积累深厚", "渠道覆盖广", "生态系统完善"],
+      "weaknesses": ["产品价格偏高", "创新速度放缓", "售后服务评价一般"],
+      "recent_news": [
+        {"date": "2025-12", "title": "公司A发布2024年度财报,营收增长24.8%"},
+        {"date": "2025-11", "title": "公司A与某医院合作开展健康数据研究"},
+        {"date": "2025-09", "title": "公司A智能耳机Max正式发布,主打健康监测功能"},
+        {"date": "2025-06", "title": "公司A运动手环Lite销量突破100万只"}
+      ]
+    },
+    {
+      "company_name": "公司B",
+      "stock_code": "COMPB",
+      "market_position": "创新挑战者",
+      "founded_year": 2018,
+      "headquarters": "深圳",
+      "financials": {
+        "2023_revenue": "45.2亿",
+        "2024_revenue": "78.5亿",
+        "revenue_growth": 73.7,
+        "2024_profit": "8.2亿",
+        "profit_margin": 10.4,
+        "r_and_d_spending": "15.7亿",
+        "r_and_d_ratio": 20.0
+      },
+      "products": [
+        {
+          "name": "智能手表X",
+          "launch_date": "2024-02",
+          "price": 1999,
+          "rating": 4.6,
+          "key_features": ["全面屏设计", "健康监测", "eSIM独立通话"]
+        },
+        {
+          "name": "智能指环",
+          "launch_date": "2024-05",
+          "price": 699,
+          "rating": 4.4,
+          "key_features": ["小巧便携", "精准睡眠监测", "7天续航"]
+        },
+        {
+          "name": "智能眼镜Air",
+          "launch_date": "2024-10",
+          "price": 2999,
+          "rating": 4.3,
+          "key_features": ["AR显示", "骨传导音频", "轻便时尚"]
+        }
+      ],
+      "market_share": 18.5,
+      "strengths": ["创新能力强", "产品设计时尚", "性价比高", "年轻用户群体大"],
+      "weaknesses": ["品牌知名度待提升", "渠道建设不完善", "供应链稳定性待加强"],
+      "recent_news": [
+        {"date": "2026-01", "title": "公司B完成C轮融资,估值突破300亿"},
+        {"date": "2025-12", "title": "公司B智能眼镜Air预售火爆,首日订单超50万"},
+        {"date": "2025-10", "title": "公司B发布全新AR智能眼镜,开启视觉交互新时代"},
+        {"date": "2025-07", "title": "公司B市场份额突破15%,增长速度行业第一"}
+      ]
+    },
+    {
+      "company_name": "公司C",
+      "stock_code": "COMPC",
+      "market_position": "细分市场专家",
+      "founded_year": 2016,
+      "headquarters": "上海",
+      "financials": {
+        "2023_revenue": "32.8亿",
+        "2024_revenue": "41.2亿",
+        "revenue_growth": 25.6,
+        "2024_profit": "6.8亿",
+        "profit_margin": 16.5,
+        "r_and_d_spending": "6.2亿",
+        "r_and_d_ratio": 15.0
+      },
+      "products": [
+        {
+          "name": "医疗级智能手表",
+          "launch_date": "2024-01",
+          "price": 3999,
+          "rating": 4.9,
+          "key_features": ["医疗级心电监测", "血压监测", "健康预警", "NMPA认证"]
+        },
+        {
+          "name": "老年人健康手环",
+          "launch_date": "2024-04",
+          "price": 599,
+          "rating": 4.7,
+          "key_features": ["跌倒检测", "一键呼叫", "定位追踪", "心率监测"]
+        },
+        {
+          "name": "睡眠监测仪",
+          "launch_date": "2024-08",
+          "price": 1299,
+          "rating": 4.6,
+          "key_features": ["精准睡眠分析", "呼吸监测", "环境噪音检测"]
+        }
+      ],
+      "market_share": 12.3,
+      "strengths": ["医疗专业资质", "精准度高", "B端合作资源丰富", "用户粘性强"],
+      "weaknesses": ["产品价格高", "消费级市场覆盖不足", "外观设计偏传统"],
+      "recent_news": [
+        {"date": "2025-12", "title": "公司C医疗级智能手表获NMPA三类医疗器械认证"},
+        {"date": "2025-11", "title": "公司C与20家三甲医院达成合作"},
+        {"date": "2025-09", "title": "公司C发布睡眠监测仪Pro,精准度提升30%"},
+        {"date": "2025-06", "title": "公司C老年人健康手环入选政府采购目录"}
+      ]
+    }
+  ],
+  "market_overview": {
+    "total_market_size_2024": "580亿",
+    "market_growth_rate": 28.5,
+    "forecast_2025": "745亿",
+    "forecast_2026": "920亿",
+    "key_trends": [
+      "健康监测功能成为标配",
+      "医疗级产品快速增长",
+      "AR/VR融合趋势明显",
+      "生态系统竞争加剧",
+      "下沉市场潜力巨大"
+    ]
+  },
+  "comparison_table": {
+    "metrics": ["市场份额", "营收增长率", "研发投入占比", "产品数量", "平均用户评分"],
+    "company_a": ["35.2%", "24.8%", "12.0%", 15, 4.6],
+    "company_b": ["18.5%", "73.7%", "20.0%", 8, 4.4],
+    "company_c": ["12.3%", "25.6%", "15.0%", 6, 4.7]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "T2-GSD-3",
+  "mode": "GSD",
+  "repeat": 3,
+  "metrics": {
+    "completion_time_minutes": 11,
+    "token_usage": 120000,
+    "steps_count": 13,
+    "iteration_count": 0
+  },
+  "process": {
+    "task_decomposition": 9,
+    "resource_efficiency": 8,
+    "error_correction": 10,
+    "context_management": 9
+  }
+}

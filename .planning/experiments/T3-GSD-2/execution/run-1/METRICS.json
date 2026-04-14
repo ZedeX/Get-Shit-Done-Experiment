@@ -1,0 +1,36 @@
+{
+  "task_id": "T3-GSD-2",
+  "mode": "GSD",
+  "repeat": 2,
+  "metrics": {
+    "completion_time_minutes": 44,
+    "token_usage": 472000,
+    "steps_count": 18,
+    "iteration_count": 0
+  },
+  "process": {
+    "task_decomposition": 10,
+    "resource_efficiency": 9,
+    "error_correction": 10,
+    "context_management": 9
+  },
+  "bugfixes": [
+    {
+      "bug_type": "dataclass_field_order",
+      "description": "Python dataclass字段顺序错误，带默认值的字段必须放在后面",
+      "severity": "critical",
+      "fixed": true,
+      "fix_time_minutes": 5
+    }
+  ],
+  "transparency": {
+    "has_initial_prompt": true,
+    "has_execution_log": true,
+    "has_tool_calls": true,
+    "has_input_output_trace": true,
+    "has_decision_points": true,
+    "has_quality_checkpoints": true,
+    "has_token_breakdown": true,
+    "has_iteration_records": true
+  }
+}

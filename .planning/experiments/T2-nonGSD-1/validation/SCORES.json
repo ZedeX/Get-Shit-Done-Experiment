@@ -1,0 +1,29 @@
+{
+  "experiment_id": "T2-nonGSD-1",
+  "validator": "Validator-1",
+  "validation_date": "2026-04-14T18:18:00Z",
+  "efficiency_metrics": {"score": 90},
+  "quality_metrics": {
+    "accuracy": {"score": 90},
+    "completeness": {"score": 7},
+    "error_rate": {"score": 10},
+    "usability": {"score": 7}
+  },
+  "process_metrics": {
+    "task_decomposition": {"score": 5},
+    "resource_efficiency": {"score": 8},
+    "error_correction": {"score": 6},
+    "context_management": {"score": 6}
+  },
+  "user_experience_metrics": {
+    "instruction_alignment": {"score": 8},
+    "interaction_smoothness": {"score": 7},
+    "satisfaction": {"score": 7},
+    "trust": {"score": 7}
+  },
+  "overall_score": 73,
+  "grade": "B-",
+  "summary": "non-GSD模式快速但需要迭代，缺少质量保障",
+  "strengths": ["单文件简单", "快速实现"],
+  "weaknesses": ["2次迭代", "无测试", "可维护性差"]
+}

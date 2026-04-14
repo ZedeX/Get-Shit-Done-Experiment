@@ -1,0 +1,28 @@
+{
+  "task_id": "T6-nonGSD-1",
+  "mode": "non-GSD",
+  "repeat": 1,
+  "metrics": {
+    "completion_time_minutes": 9,
+    "token_usage": 95000,
+    "steps_count": 6,
+    "iteration_count": 3
+  },
+  "process": {
+    "task_decomposition": 4,
+    "resource_efficiency": 8,
+    "error_correction": 5,
+    "context_management": 5
+  },
+  "bugfixes": [],
+  "transparency": {
+    "has_initial_prompt": true,
+    "has_execution_log": true,
+    "has_tool_calls": true,
+    "has_input_output_trace": true,
+    "has_decision_points": false,
+    "has_quality_checkpoints": false,
+    "has_token_breakdown": false,
+    "has_iteration_records": true
+  }
+}

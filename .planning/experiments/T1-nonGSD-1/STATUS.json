@@ -1,0 +1,21 @@
+{
+  "task_id": "T1-nonGSD-1",
+  "experiment_task": "T1",
+  "mode": "non-GSD",
+  "repeat": 1,
+  "status": "completed",
+  "phases": {
+    "execution": {
+      "status": "completed",
+      "started_at": "2026-04-14T16:00:00Z",
+      "completed_at": "2026-04-14T16:02:00Z",
+      "output": ".planning/experiments/T1-nonGSD-1/execution/run-1/"
+    }
+  },
+  "metrics": {
+    "completion_time_minutes": 2,
+    "token_usage": 28000,
+    "steps_count": 6,
+    "iteration_count": 1
+  }
+}

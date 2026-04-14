@@ -1,0 +1,41 @@
+{
+  "task_id": "T2-GSD-1",
+  "experiment_task": "T2",
+  "mode": "GSD",
+  "repeat": 1,
+  "start_time": "2026-04-14T16:00:00Z",
+  "end_time": "2026-04-14T16:12:00Z",
+  "completion_time_minutes": 12,
+  "token_usage": 125000,
+  "steps_count": 13,
+  "iteration_count": 0,
+  "quality_metrics": {
+    "accuracy": 98,
+    "completeness": 10,
+    "error_rate": 2,
+    "usability": 9
+  },
+  "process_metrics": {
+    "task_decomposition": 9,
+    "resource_efficiency": 8,
+    "error_correction": 10,
+    "context_management": 9
+  },
+  "user_experience": {
+    "instruction_alignment": 10,
+    "interaction_smoothness": 9,
+    "satisfaction": 9,
+    "trust": 9
+  },
+  "output_files": [
+    "todo/storage.py",
+    "todo/task.py",
+    "todo/cli.py",
+    "todo/__init__.py",
+    "main.py",
+    "tests/test_storage.py",
+    "tests/test_task.py",
+    "tests/__init__.py",
+    "README.md"
+  ]
+}

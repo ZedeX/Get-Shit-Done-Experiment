@@ -1,0 +1,37 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 5000.0,
+      "type": "income",
+      "category_id": null,
+      "description": "\u5de5\u8d44",
+      "date": "2026-04-14"
+    },
+    {
+      "id": 2,
+      "amount": 200.0,
+      "type": "expense",
+      "category_id": null,
+      "description": "\u5348\u9910",
+      "date": "2026-04-14"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "\u5de5\u8d44",
+      "type": "income"
+    },
+    {
+      "id": 2,
+      "name": "\u9910\u996e",
+      "type": "expense"
+    },
+    {
+      "id": 3,
+      "name": "\u4ea4\u901a",
+      "type": "expense"
+    }
+  ]
+}

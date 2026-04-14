@@ -1,0 +1,13 @@
+{
+  "task_id": "T5-nonGSD-1",
+  "experiment_task": "T5",
+  "mode": "non-GSD",
+  "repeat": 1,
+  "status": "completed",
+  "metrics": {
+    "completion_time_minutes": 5,
+    "token_usage": 55000,
+    "steps_count": 7,
+    "iteration_count": 2
+  }
+}

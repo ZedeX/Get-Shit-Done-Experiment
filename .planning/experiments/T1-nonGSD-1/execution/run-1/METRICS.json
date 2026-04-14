@@ -1,0 +1,17 @@
+{
+  "task_id": "T1-nonGSD-1",
+  "mode": "non-GSD",
+  "repeat": 1,
+  "metrics": {
+    "completion_time_minutes": 2,
+    "token_usage": 28000,
+    "steps_count": 6,
+    "iteration_count": 1
+  },
+  "process": {
+    "task_decomposition": 5,
+    "resource_efficiency": 7,
+    "error_correction": 6,
+    "context_management": 6
+  }
+}

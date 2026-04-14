@@ -1,0 +1,13 @@
+{
+  "task_id": "T3-GSD-2",
+  "experiment_task": "T3",
+  "mode": "GSD",
+  "repeat": 2,
+  "status": "completed",
+  "metrics": {
+    "completion_time_minutes": 44,
+    "token_usage": 472000,
+    "steps_count": 18,
+    "iteration_count": 0
+  }
+}

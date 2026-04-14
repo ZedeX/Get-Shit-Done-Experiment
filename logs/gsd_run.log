@@ -1,0 +1,23 @@
+正在扫描目录: test_images
+找到 19 个PNG文件
+[1/19] 转换: alpha_100x100.png
+[2/19] 转换: alpha_200x200.png
+[3/19] 转换: alpha_300x300.png
+[4/19] 转换: alpha_gradient.png
+[5/19] 转换: alpha_logo.png
+[6/19] 转换: alpha_simple.png
+[7/19] 转换: icon_large.png
+[8/19] 转换: icon_medium.png
+[9/19] 转换: icon_small.png
+[10/19] 转换: photo_large.png
+[11/19] 转换: photo_medium.png
+[12/19] 转换: photo_small.png
+[13/19] 转换: test_100x100.png
+[14/19] 转换: test_1920x1080.png
+[15/19] 转换: test_200x200.png
+[16/19] 转换: test_400x300.png
+[17/19] 转换: test_800x600.png
+[18/19] 转换: subdir\nested_150x150.png
+[19/19] 转换: subdir\nested_250x250.png
+
+转换完成! 成功: 19/19

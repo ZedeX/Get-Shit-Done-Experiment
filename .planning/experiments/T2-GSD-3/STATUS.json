@@ -1,0 +1,33 @@
+{
+  "task_id": "T2-GSD-3",
+  "experiment_task": "T2",
+  "mode": "GSD",
+  "repeat": 3,
+  "status": "completed",
+  "phases": {
+    "orchestration": {
+      "status": "completed",
+      "started_at": "2026-04-14T17:10:00Z",
+      "completed_at": "2026-04-14T17:10:00Z",
+      "output": ".planning/experiments/T2/"
+    },
+    "execution": {
+      "status": "completed",
+      "started_at": "2026-04-14T17:10:00Z",
+      "completed_at": "2026-04-14T17:21:00Z",
+      "output": ".planning/experiments/T2-GSD-3/execution/run-1/"
+    },
+    "validation": {
+      "status": "completed",
+      "started_at": "2026-04-14T17:21:00Z",
+      "completed_at": "2026-04-14T17:22:00Z",
+      "output": ".planning/experiments/T2-GSD-3/validation/"
+    }
+  },
+  "metrics": {
+    "completion_time_minutes": 11,
+    "token_usage": 120000,
+    "steps_count": 13,
+    "iteration_count": 0
+  }
+}

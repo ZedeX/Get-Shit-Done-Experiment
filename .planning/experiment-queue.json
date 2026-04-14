@@ -1,0 +1,23 @@
+{
+  "queue_id": "QUEUE-001",
+  "created_at": "2026-04-14T15:30:00Z",
+  "tasks": [
+    {
+      "task_id": "REMAINING_REPEATS",
+      "note": "剩余重复实验: T4-T9各2次重复 (共24个实验)",
+      "status": "pending"
+    }
+  ],
+  "completed_tasks": [
+    "T1-GSD-1", "T1-nonGSD-1", "T2-GSD-1", "T2-nonGSD-1",
+    "T1-GSD-2", "T1-nonGSD-2", "T2-GSD-2", "T2-nonGSD-2",
+    "T3-GSD-1", "T3-nonGSD-1", "T1-GSD-3", "T1-nonGSD-3",
+    "T2-GSD-3", "T2-nonGSD-3", "T3-GSD-2", "T3-nonGSD-2",
+    "T3-GSD-3", "T3-nonGSD-3", "T4-GSD-1", "T4-nonGSD-1",
+    "T5-GSD-1", "T5-nonGSD-1", "T6-GSD-1", "T6-nonGSD-1",
+    "T7-GSD-1", "T7-nonGSD-1", "T8-GSD-1", "T8-nonGSD-1",
+    "T9-GSD-1", "T9-nonGSD-1"
+  ],
+  "failed_tasks": [],
+  "note": "所有9个任务的第一次重复已完成! T1-T3已完成全部3次重复。样本数据足够进行分析。"
+}

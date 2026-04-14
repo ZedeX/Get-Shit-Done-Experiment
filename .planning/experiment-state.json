@@ -1,0 +1,65 @@
+{
+  "experiment_id": "EXP-2026-04-14-001",
+  "status": "core_complete",
+  "started_at": "2026-04-14T15:00:00Z",
+  "updated_at": "2026-04-14T18:30:00Z",
+  "config": {
+    "total_tasks": 9,
+    "repeats": 3,
+    "modes": ["GSD", "non-GSD"],
+    "parallel_limit": 4
+  },
+  "progress": {
+    "total_experiments": 54,
+    "completed": 32,
+    "running": 0,
+    "pending": 22,
+    "failed": 0
+  },
+  "bugfixes": {
+    "total_found": 2,
+    "total_fixed": 2,
+    "gsd_bugs": 1,
+    "nongs_bugs": 1,
+    "critical_bugs": 1,
+    "medium_bugs": 1,
+    "total_fix_time_minutes": 10
+  },
+  "transparency": {
+    "total_with_transparency": 32,
+    "gsd_with_full_transparency": 16,
+    "nongs_with_basic_transparency": 16
+  },
+  "current_phase": "ready_for_final_analysis",
+  "active_agents": [],
+  "checkpoints": [
+    {
+      "phase": "preparation",
+      "completed_at": "2026-04-14T15:15:00Z"
+    },
+    {
+      "phase": "orchestration",
+      "completed_at": "2026-04-14T15:30:00Z"
+    },
+    {
+      "phase": "wave1_execution",
+      "completed_at": "2026-04-14T16:20:00Z"
+    },
+    {
+      "phase": "wave2_execution",
+      "completed_at": "2026-04-14T16:55:00Z"
+    },
+    {
+      "phase": "wave3_execution",
+      "completed_at": "2026-04-14T17:35:00Z"
+    },
+    {
+      "phase": "bugfix_validation",
+      "completed_at": "2026-04-14T18:00:00Z"
+    },
+    {
+      "phase": "core_complete",
+      "completed_at": "2026-04-14T18:30:00Z"
+    }
+  ]
+}

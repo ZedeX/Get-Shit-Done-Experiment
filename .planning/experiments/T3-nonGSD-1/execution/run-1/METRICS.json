@@ -1,0 +1,30 @@
+{
+  "task_id": "T3-nonGSD-1",
+  "experiment_task": "T3",
+  "mode": "non-GSD",
+  "repeat": 1,
+  "start_time": "2026-04-14T17:45:00Z",
+  "end_time": "2026-04-14T18:10:00Z",
+  "completion_time_minutes": 25,
+  "token_usage": 220000,
+  "steps_count": 10,
+  "iteration_count": 4,
+  "quality_metrics": {
+    "accuracy": 82,
+    "completeness": 6,
+    "error_rate": 18,
+    "usability": 6
+  },
+  "process_metrics": {
+    "task_decomposition": 4,
+    "resource_efficiency": 8,
+    "error_correction": 5,
+    "context_management": 5
+  },
+  "user_experience": {
+    "instruction_alignment": 7,
+    "interaction_smoothness": 6,
+    "satisfaction": 6,
+    "trust": 6
+  }
+}

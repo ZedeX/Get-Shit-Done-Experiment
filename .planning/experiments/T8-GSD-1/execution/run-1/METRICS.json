@@ -1,0 +1,28 @@
+{
+  "task_id": "T8-GSD-1",
+  "mode": "GSD",
+  "repeat": 1,
+  "metrics": {
+    "completion_time_minutes": 6,
+    "token_usage": 72000,
+    "steps_count": 11,
+    "iteration_count": 0
+  },
+  "process": {
+    "task_decomposition": 9,
+    "resource_efficiency": 8,
+    "error_correction": 10,
+    "context_management": 9
+  },
+  "bugfixes": [],
+  "transparency": {
+    "has_initial_prompt": true,
+    "has_execution_log": true,
+    "has_tool_calls": true,
+    "has_input_output_trace": true,
+    "has_decision_points": true,
+    "has_quality_checkpoints": true,
+    "has_token_breakdown": true,
+    "has_iteration_records": true
+  }
+}

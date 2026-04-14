@@ -1,0 +1,221 @@
+{
+  "experiment_id": "EXP-2026-04-14-001",
+  "tasks": [
+    {
+      "task_id": "T1",
+      "scenario": "code_development",
+      "complexity": "simple",
+      "name": "PNG到WebP批量转换脚本",
+      "description": "编写一个Python脚本，实现将指定目录下所有PNG图片批量转换为WebP格式，保留原始文件名",
+      "input_resources": [],
+      "output_requirements": {
+        "format": "Python脚本",
+        "features": [
+          "递归遍历目录",
+          "支持指定输出目录",
+          "保留原始文件名结构",
+          "可配置WebP质量参数"
+        ]
+      },
+      "acceptance_criteria": [
+        "脚本可正常运行",
+        "PNG文件正确转换为WebP",
+        "文件名保持一致",
+        "转换质量可配置"
+      ]
+    },
+    {
+      "task_id": "T2",
+      "scenario": "code_development",
+      "complexity": "medium",
+      "name": "命令行待办事项管理工具",
+      "description": "开发一个命令行待办事项管理工具，支持添加、删除、标记完成、按优先级排序、数据持久化存储功能",
+      "input_resources": [],
+      "output_requirements": {
+        "format": "Python命令行工具",
+        "features": [
+          "添加任务（含优先级）",
+          "删除任务",
+          "标记任务完成",
+          "按优先级排序显示",
+          "数据持久化到JSON文件",
+          "命令行界面友好"
+        ]
+      },
+      "acceptance_criteria": [
+        "所有功能正常工作",
+        "数据正确持久化",
+        "命令行交互流畅",
+        "代码结构清晰"
+      ]
+    },
+    {
+      "task_id": "T3",
+      "scenario": "code_development",
+      "complexity": "complex",
+      "name": "个人财务管理系统",
+      "description": "设计并实现一个个人财务管理系统，包含收支记录、预算管理、可视化报表、数据导入导出功能",
+      "input_resources": [],
+      "output_requirements": {
+        "format": "完整Python应用",
+        "features": [
+          "收支记录管理（增删改查）",
+          "预算设置与跟踪",
+          "分类统计与分析",
+          "可视化图表展示",
+          "CSV数据导入导出",
+          "数据持久化存储"
+        ]
+      },
+      "acceptance_criteria": [
+        "所有核心功能实现",
+        "用户界面友好",
+        "数据安全可靠",
+        "文档完整"
+      ]
+    },
+    {
+      "task_id": "T4",
+      "scenario": "data_analysis",
+      "complexity": "simple",
+      "name": "销售数据分析",
+      "description": "分析提供的销售数据CSV文件，计算各产品类别的总销售额、平均单价、销量排名",
+      "input_resources": [
+        "需要生成示例销售数据CSV"
+      ],
+      "output_requirements": {
+        "format": "分析报告 + Python脚本",
+        "metrics": [
+          "各类别总销售额",
+          "各类别平均单价",
+          "销量排名",
+          "月度趋势"
+        ]
+      },
+      "acceptance_criteria": [
+        "数据计算准确",
+        "报告清晰易读",
+        "可视化图表直观"
+      ]
+    },
+    {
+      "task_id": "T5",
+      "scenario": "data_analysis",
+      "complexity": "medium",
+      "name": "电商用户评论分析",
+      "description": "分析某电商平台过去一年的用户评论数据，识别主要投诉类型、情感趋势、改进建议",
+      "input_resources": [
+        "需要生成示例评论数据"
+      ],
+      "output_requirements": {
+        "format": "完整分析报告",
+        "content": [
+          "投诉类型分类统计",
+          "情感倾向分析",
+          "时间趋势分析",
+          "改进建议汇总"
+        ]
+      },
+      "acceptance_criteria": [
+        "分析维度全面",
+        "结论有数据支撑",
+        "建议切实可行"
+      ]
+    },
+    {
+      "task_id": "T6",
+      "scenario": "data_analysis",
+      "complexity": "complex",
+      "name": "竞品竞争态势分析",
+      "description": "综合分析某行业三家竞品公司的公开数据（财报、新闻、产品），生成竞争态势分析报告",
+      "input_resources": [
+        "需要收集/生成竞品公开数据"
+      ],
+      "output_requirements": {
+        "format": "深度分析报告",
+        "sections": [
+          "市场格局概述",
+          "竞品对比分析",
+          "优劣势分析",
+          "机会与威胁",
+          "战略建议"
+        ]
+      },
+      "acceptance_criteria": [
+        "分析深度足够",
+        "数据来源可靠",
+        "建议具有战略性"
+      ]
+    },
+    {
+      "task_id": "T7",
+      "scenario": "creative_generation",
+      "complexity": "simple",
+      "name": "智能手表广告文案",
+      "description": "为一款新推出的智能手表撰写5条不同风格的广告文案",
+      "input_resources": [],
+      "output_requirements": {
+        "format": "5条广告文案",
+        "styles": [
+          "时尚潮流风",
+          "科技极客风",
+          "健康生活风",
+          "简约商务风",
+          "年轻活力风"
+        ]
+      },
+      "acceptance_criteria": [
+        "每条风格鲜明",
+        "文案有吸引力",
+        "突出产品卖点"
+      ]
+    },
+    {
+      "task_id": "T8",
+      "scenario": "creative_generation",
+      "complexity": "medium",
+      "name": "在线学习平台品牌设计",
+      "description": "为一个面向大学生的在线学习平台设计完整的产品命名、Slogan、品牌故事和视觉风格建议",
+      "input_resources": [],
+      "output_requirements": {
+        "format": "品牌设计方案",
+        "components": [
+          "产品命名（3个备选）",
+          "品牌Slogan",
+          "品牌故事",
+          "视觉风格建议",
+          "核心价值观"
+        ]
+      },
+      "acceptance_criteria": [
+        "品牌定位清晰",
+        "目标用户匹配",
+        "视觉风格统一"
+      ]
+    },
+    {
+      "task_id": "T9",
+      "scenario": "creative_generation",
+      "complexity": "complex",
+      "name": "压力管理App产品方案",
+      "description": "构思一个面向职场人士的压力管理App产品方案，包含核心功能、用户旅程、商业模式、推广策略",
+      "input_resources": [],
+      "output_requirements": {
+        "format": "完整产品方案",
+        "sections": [
+          "产品定位与目标用户",
+          "核心功能设计",
+          "用户旅程地图",
+          "商业模式",
+          "推广策略",
+          " roadmap"
+        ]
+      },
+      "acceptance_criteria": [
+        "方案完整可行",
+        "商业模式清晰",
+        "有创新亮点"
+      ]
+    }
+  ]
+}

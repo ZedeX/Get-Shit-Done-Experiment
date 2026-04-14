@@ -1,0 +1,150 @@
+{
+  "platform": "某电商平台",
+  "time_range": "2025-01-01 至 2025-12-31",
+  "total_reviews": 500,
+  "reviews": [
+    {
+      "review_id": "R001",
+      "date": "2025-01-05",
+      "product_category": "电子产品",
+      "rating": 2,
+      "content": "发货速度太慢了,等了一个星期才收到。包装也很简陋,产品盒子都压变形了。",
+      "sentiment": "negative"
+    },
+    {
+      "review_id": "R002",
+      "date": "2025-01-12",
+      "product_category": "服装",
+      "rating": 5,
+      "content": "质量很好,尺码也很标准,穿上很舒服。客服态度也很好,下次还会回购!",
+      "sentiment": "positive"
+    },
+    {
+      "review_id": "R003",
+      "date": "2025-01-18",
+      "product_category": "家居用品",
+      "rating": 3,
+      "content": "产品一般,和图片描述有差距,但还算能用。价格偏贵,性价比不高。",
+      "sentiment": "neutral"
+    },
+    {
+      "review_id": "R004",
+      "date": "2025-02-02",
+      "product_category": "电子产品",
+      "rating": 1,
+      "content": "用了三天就坏了!质量太差了!申请售后还各种推诿,太让人生气了!",
+      "sentiment": "negative"
+    },
+    {
+      "review_id": "R005",
+      "date": "2025-02-10",
+      "product_category": "食品",
+      "rating": 4,
+      "content": "味道不错,包装也很好,就是保质期有点短,希望能改进。",
+      "sentiment": "positive"
+    },
+    {
+      "review_id": "R006",
+      "date": "2025-02-15",
+      "product_category": "服装",
+      "rating": 2,
+      "content": "尺码严重不准,偏小太多,换货还要自己出运费,太不合理了。",
+      "sentiment": "negative"
+    },
+    {
+      "review_id": "R007",
+      "date": "2025-02-22",
+      "product_category": "电子产品",
+      "rating": 5,
+      "content": "非常满意!产品质量很好,功能齐全,物流也很快,隔天就到了。",
+      "sentiment": "positive"
+    },
+    {
+      "review_id": "R008",
+      "date": "2025-03-05",
+      "product_category": "家居用品",
+      "rating": 4,
+      "content": "设计很新颖,实用性强,就是组装有点复杂,花了不少时间。",
+      "sentiment": "positive"
+    },
+    {
+      "review_id": "R009",
+      "date": "2025-03-12",
+      "product_category": "食品",
+      "rating": 2,
+      "content": "收到时包装已经破损,里面的东西都漏出来了,影响食用体验。",
+      "sentiment": "negative"
+    },
+    {
+      "review_id": "R010",
+      "date": "2025-03-20",
+      "product_category": "服装",
+      "rating": 5,
+      "content": "超出预期!面料很舒服,做工精细,物超所值,强烈推荐!",
+      "sentiment": "positive"
+    },
+    {
+      "review_id": "R011",
+      "date": "2025-04-02",
+      "product_category": "电子产品",
+      "rating": 3,
+      "content": "功能还行,但是续航比宣传的短很多,日常使用勉强够。",
+      "sentiment": "neutral"
+    },
+    {
+      "review_id": "R012",
+      "date": "2025-04-10",
+      "product_category": "家居用品",
+      "rating": 1,
+      "content": "异味很大,放了半个月还是很刺鼻,根本不敢用,已经退货了。",
+      "sentiment": "negative"
+    },
+    {
+      "review_id": "R013",
+      "date": "2025-04-18",
+      "product_category": "食品",
+      "rating": 5,
+      "content": "太好吃了!已经回购好几次了,日期也很新鲜,会一直支持的。",
+      "sentiment": "positive"
+    },
+    {
+      "review_id": "R014",
+      "date": "2025-05-02",
+      "product_category": "服装",
+      "rating": 4,
+      "content": "整体满意,颜色比图片稍深一点,但不影响,性价比不错。",
+      "sentiment": "positive"
+    },
+    {
+      "review_id": "R015",
+      "date": "2025-05-10",
+      "product_category": "电子产品",
+      "rating": 2,
+      "content": "噪音很大,晚上用影响休息,早知道就不买了,后悔。",
+      "sentiment": "negative"
+    }
+  ],
+  "complaint_types": {
+    "物流问题": 120,
+    "质量问题": 95,
+    "售后服务": 85,
+    "商品描述不符": 70,
+    "价格问题": 55,
+    "包装问题": 45,
+    "其他": 30
+  },
+  "monthly_sentiment_trend": [
+    {"month": "2025-01", "positive": 55, "negative": 25, "neutral": 20},
+    {"month": "2025-02", "positive": 52, "negative": 28, "neutral": 20},
+    {"month": "2025-03", "positive": 58, "negative": 22, "neutral": 20},
+    {"month": "2025-04", "positive": 50, "negative": 30, "neutral": 20},
+    {"month": "2025-05", "positive": 56, "negative": 24, "neutral": 20},
+    {"month": "2025-06", "positive": 60, "negative": 20, "neutral": 20},
+    {"month": "2025-07", "positive": 53, "negative": 27, "neutral": 20},
+    {"month": "2025-08", "positive": 57, "negative": 23, "neutral": 20},
+    {"month": "2025-09", "positive": 59, "negative": 21, "neutral": 20},
+    {"month": "2025-10", "positive": 54, "negative": 26, "neutral": 20},
+    {"month": "2025-11", "positive": 61, "negative": 19, "neutral": 20},
+    {"month": "2025-12", "positive": 58, "negative": 22, "neutral": 20}
+  ]
+}

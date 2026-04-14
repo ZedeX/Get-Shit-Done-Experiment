@@ -1,0 +1,51 @@
+{
+  "experiment_id": "T1-nonGSD-1",
+  "validator": "Validator-1",
+  "validation_date": "2026-04-14T18:16:00Z",
+  "efficiency_metrics": {
+    "completion_time_minutes": 2,
+    "token_usage": 28000,
+    "steps_count": 6,
+    "iteration_count": 1,
+    "score": 95
+  },
+  "quality_metrics": {
+    "accuracy": {
+      "score": 95,
+      "evidence": "基本转换功能正常",
+      "issues": ["边缘情况处理不足"]
+    },
+    "completeness": {
+      "score": 7,
+      "evidence": "缺少递归目录、质量参数等高级功能",
+      "missing_features": ["递归处理", "质量配置", "输出目录"]
+    },
+    "error_rate": {
+      "score": 5,
+      "evidence": "错误处理简单",
+      "bugs_found": ["缺少文件存在性检查"]
+    },
+    "usability": {
+      "score": 7,
+      "evidence": "基本可用，但帮助信息简单",
+      "suggestions": ["增加使用示例"]
+    }
+  },
+  "process_metrics": {
+    "task_decomposition": {"score": 5},
+    "resource_efficiency": {"score": 8},
+    "error_correction": {"score": 6},
+    "context_management": {"score": 6}
+  },
+  "user_experience_metrics": {
+    "instruction_alignment": {"score": 8},
+    "interaction_smoothness": {"score": 7},
+    "satisfaction": {"score": 7},
+    "trust": {"score": 7}
+  },
+  "overall_score": 76,
+  "grade": "B",
+  "summary": "non-GSD模式效率高，但质量和完整性有差距",
+  "strengths": ["快速产出", "直接高效"],
+  "weaknesses": ["需要迭代", "功能不完整", "缺少测试"]
+}

@@ -1,0 +1,14 @@
+usage: png2webp.py [-h] --input INPUT --output OUTPUT [--quality [1-100]]
+
+PNG到WebP批量转换工具
+
+options:
+  -h, --help         show this help message and exit
+  --input INPUT      输入目录路径
+  --output OUTPUT    输出目录路径
+  --quality [1-100]  WebP质量 (1-100, 默认: 85)
+
+示例:
+  python png2webp.py --input ./images --output ./webp
+  python png2webp.py --input ./images --output ./webp --quality 90
+        
